@@ -4,12 +4,16 @@
   "description": "Implements JSON validation",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --watch --test ./test/*.test.js"
+    "dev": "nodemon --config nodemon.dev.json",
+    "test": "nodemon --config nodemon.test.json"
   },
   "keywords": [],
   "author": "Mike Terry",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "keeno-system": "^0.1.0"
   }
 }
