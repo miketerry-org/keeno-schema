@@ -4,7 +4,7 @@
 
 // Load all necessary modules
 const dataTypes = require("./lib/dataTypes.js");
-const maskSensitiveKeys = require("maskSensitiveKeys.js");
+const maskSensitiveKeys = require("./lib/maskSensitiveKeys.js");
 const removeSensitiveKeys = require("./lib/removeSensitiveKeys.js");
 const sanitizeObject = require("./lib/sanitizeObject.js");
 const validObject = require("./lib/validObject.js");
