@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "keeno-system": "^0.2.1"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
-  },
   },
   "keywords": [],
   "author": "Mike Terry",
